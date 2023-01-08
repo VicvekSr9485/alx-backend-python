@@ -7,7 +7,7 @@ import math
 from math import floor
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """ Returns the floor value of n
     """
     return math.floor(n)
