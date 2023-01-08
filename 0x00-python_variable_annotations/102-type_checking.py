@@ -5,10 +5,10 @@
 from typing import Any, List, Tuple
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> Any:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """ type checking and validation using mypy
     """
-    zoomed_in: Any = [
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
     ]
