@@ -3,7 +3,7 @@
 """
 
 
-def concat(str1: str, str2: str):
+def concat(str1: str, str2: str) -> str:
     """ concat function with variable annotations
     """
     return str1 + str2

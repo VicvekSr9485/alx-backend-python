@@ -3,7 +3,7 @@
 """
 
 
-def add(a: float, b: float):
+def add(a: float, b: float) -> float:
     """ function add of variable annotation
     """
     return a + b
