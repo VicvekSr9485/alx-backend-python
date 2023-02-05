@@ -3,12 +3,12 @@
 
 import unittest
 from utils import access_nested_map
-from unittest.util import Parameterized
+from parameterized import parameterized
 
 
 class TestAccessNestedMap(unittest.TestCase):
     """ TestAccessNestedMap Test Class """
-    @Parameterized.expand([
+    @parameterized.expand([
         ({"a": 1}, ("a"), 1),
         ({"a": {"b": 2}}, ("a"), 2),
         ({"a": {"b": 2}}, ("a", "b"), 2)
